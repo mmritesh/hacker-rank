@@ -7,10 +7,11 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="coding-challenges" />
+        <module name="hackerrank" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="coding-challenges" target="1.5" />
+    <bytecodeTargetLevel target="1.8">
+      <module name="hackerrank" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
